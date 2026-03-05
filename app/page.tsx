@@ -1,47 +1,49 @@
 // update trigger
 export default function Home() {
-  
-    <main className="bg-[#f8f6f3] text-[#1f2937]">
-
-      export default function Home() {
   return (
     <main className="bg-[#f8f6f3] text-[#1f2937]">
 
       {/* HERO */}
-      <section className="relative w-full h-[520px] flex items-center justify-center text-center">
+<section className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
 
-        <img
-          src="/hero-couple.png"
-          alt="Couple reconnecting emotionally"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+  {/* LEFT SIDE - TEXT */}
+  <div>
 
-        <div className="absolute inset-0 bg-white/80"></div>
+    <h1 className="text-5xl font-semibold leading-tight">
+      Couples Clarity Session
+    </h1>
 
-        <div className="relative max-w-3xl px-6">
+    <p className="mt-4 text-xl text-gray-700">
+      With Mahee | Marriage & Intimacy Coach
+    </p>
 
-          <h1 className="text-5xl font-semibold leading-tight">
-            Couples Clarity Session
-          </h1>
+    <p className="mt-6 text-lg text-gray-600">
+      Feeling distant, misunderstood, or stuck in the same arguments?
+      You don't need to wait until things get worse.
+    </p>
 
-          <p className="mt-4 text-xl">
-            With Mahee | Marriage & Intimacy Coach
-          </p>
+    <a
+      href="https://calendly.com/mahee_clarity-session"
+      className="mt-8 inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg shadow-lg hover:opacity-90"
+    >
+      Book Your Couples Clarity Session
+    </a>
 
-          <p className="mt-6 text-lg">
-            Feeling distant, misunderstood, or stuck in the same arguments?
-            You don't need to wait until things get worse.
-          </p>
+  </div>
 
-          <a
-            href="https://calendly.com/mahee_clarity-session"
-            className="mt-8 inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg shadow-lg"
-          >
-            Book Your Couples Clarity Session
-          </a>
 
-        </div>
-      </section>
+  {/* RIGHT SIDE - IMAGE */}
+  <div className="flex justify-center">
+
+    <img
+      src="/hero-couple.png"
+      alt="Couple reconnecting emotionally"
+      className="rounded-2xl shadow-xl w-full max-w-lg"
+    />
+
+  </div>
+
+</section>
 
     </main>
   );
@@ -63,7 +65,7 @@ export default function Home() {
 
     <img
   src="/mahee.jpg"
-  alt="Mahee - Marriage & Intimacy Coach"
+  alt="Mahee - Marriage and Intimacy Coach"
   className="rounded-2xl shadow-xl w-full max-w-md object-cover"
 />
 
@@ -166,5 +168,5 @@ export default function Home() {
       </footer>
 
     </main>
-  )
+  );
 }
