@@ -49,7 +49,7 @@ export default function Home() {
       <section className="bg-[#f1ebe2] py-24 px-6">
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
-          <<img
+          <img
   src="/mahee.jpg"
   className="rounded-xl shadow-lg"
 />
