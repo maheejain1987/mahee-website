@@ -45,9 +45,6 @@ export default function Home() {
 
 </section>
 
-    </main>
-  );
-}
       {/* PROBLEMS */}
       <section className="bg-white py-20 px-6">
         <div className="max-w-3xl mx-auto text-lg space-y-4">
