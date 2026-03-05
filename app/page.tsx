@@ -49,9 +49,10 @@ export default function Home() {
       <section className="bg-[#f1ebe2] py-24 px-6">
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
-          <img
-            src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80"
-            className="rounded-xl shadow-lg"
+          <<img
+  src="/mahee.jpg"
+  className="rounded-xl shadow-lg"
+/>
           />
 
           <div>
@@ -92,21 +93,35 @@ export default function Home() {
 
       {/* TESTIMONIAL */}
       <section className="bg-[#f1ebe2] py-24 px-6 text-center">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl font-semibold">
-            What Couples Say
-          </h2>
+<div className="max-w-3xl mx-auto">
 
-          <p className="mt-8 text-lg italic">
-            “This session helped us understand each other in a way we hadn't
-            in years. We left with clarity and hope.”
-          </p>
+<h2 className="text-4xl font-semibold">
+What Couples Say
+</h2>
 
-          <p className="mt-4 font-medium">
-            — Anonymous Couple
-          </p>
-        </div>
-      </section>
+<div className="mt-10 space-y-8">
+
+<p className="text-lg italic">
+“Mahee helped us understand each other without blaming each other.
+We left the session feeling connected again.”
+</p>
+
+<p className="font-medium">
+— Couple from Bangalore
+</p>
+
+<p className="text-lg italic">
+“This session changed the way we communicate. It was calm,
+respectful and incredibly insightful.”
+</p>
+
+<p className="font-medium">
+— Anonymous Couple
+</p>
+
+</div>
+</div>
+</section>
 
       {/* PRICING */}
       <section className="py-28 px-6 text-center">
@@ -119,8 +134,12 @@ export default function Home() {
             Investment: ₹1,999
           </p>
 
-          <button className="mt-10 px-12 py-5 bg-[#a88f6c] text-white rounded-full text-lg shadow-xl hover:bg-[#94785a] transition">
-            Book Your Session
+          <<a
+href="https://calendly.com/mahee_clarity-session"
+className="mt-10 inline-block px-12 py-5 bg-[#a88f6c] text-white rounded-full text-lg shadow-xl hover:bg-[#94785a] transition"
+>
+Book Your Session
+</a>
           </button>
         </div>
       </section>
