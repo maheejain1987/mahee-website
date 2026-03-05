@@ -38,33 +38,32 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section className="bg-[#f1ebe2] py-24 px-6">
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+<section className="bg-[#f1ebe2] py-24 px-6">
+  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-          <img
-            src="/mahee.jpg"
-            className="rounded-xl shadow-lg"
-          />
+    <img
+      src="/mahee.jpg"
+      className="rounded-xl shadow-lg"
+    />
 
-          <div>
-            <h2 className="text-4xl font-semibold">
-              Hi, I'm Mahee
-            </h2>
+    <div>
+      <h2 className="text-4xl font-semibold">
+        Hi, I'm Mahee
+      </h2>
 
-            <p className="mt-6 text-lg leading-relaxed">
-              I'm a Marriage & Intimacy Coach helping couples rebuild emotional
-              safety, conscious communication, and physical connection.
-            </p>
+      <p className="mt-6 text-lg leading-relaxed">
+        I'm a Marriage & Intimacy Coach helping couples rebuild emotional
+        safety, conscious communication, and physical connection.
+      </p>
 
-            <p className="mt-4 text-lg leading-relaxed">
-              My approach is calm, practical, and deeply respectful —
-              helping both partners feel heard while creating a path forward
-              together.
-            </p>
-          </div>
+      <p className="mt-4 text-lg leading-relaxed">
+        My approach is calm, practical, and deeply respectful — helping both
+        partners feel heard while creating a path forward together.
+      </p>
+    </div>
 
-        </div>
-      </section>
+  </div>
+</section>
 
       {/* SESSION DETAILS */}
       <section className="py-24 px-6 text-center">
