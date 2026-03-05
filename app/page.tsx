@@ -4,97 +4,132 @@ export default function Home() {
 
       {/* HERO */}
       <section
-        className="text-center py-28 px-6 text-white bg-cover bg-center"
+        className="relative text-center py-32 px-6 text-white bg-cover bg-center"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1600&q=80')",
         }}
       >
-        <div className="max-w-3xl mx-auto bg-black/40 p-10 rounded-xl">
-          <h1 className="text-5xl font-semibold leading-tight">
+        <div className="absolute inset-0 bg-black/50"></div>
+
+        <div className="relative max-w-3xl mx-auto">
+          <h1 className="text-5xl md:text-6xl font-semibold leading-tight">
             Reconnect. Rebuild. Rediscover Each Other.
           </h1>
 
-          <p className="mt-6 text-lg">
+          <p className="mt-6 text-xl">
             A private clarity session for couples who love each other
             but feel emotionally distant or stuck in repeating conflicts.
           </p>
 
-          <button className="mt-8 px-10 py-4 bg-[#a88f6c] rounded-full text-white text-lg">
+          <button className="mt-10 px-12 py-5 bg-[#a88f6c] rounded-full text-lg shadow-xl hover:bg-[#94785a] transition">
             Apply for Couples Clarity Session
           </button>
         </div>
       </section>
 
-      {/* PROBLEM SECTION */}
-      <section className="py-20 px-6 text-center">
+      {/* PROBLEMS */}
+      <section className="py-24 px-6 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-semibold">If This Feels Familiar…</h2>
+          <h2 className="text-4xl font-semibold">
+            If This Feels Familiar…
+          </h2>
 
-          <div className="mt-8 space-y-4 text-lg">
+          <div className="mt-10 space-y-5 text-lg leading-relaxed">
             <p>You live in the same house but feel emotionally distant.</p>
             <p>Small conversations turn into arguments.</p>
-            <p>One of you shuts down. The other feels unheard.</p>
+            <p>One partner shuts down while the other feels unheard.</p>
             <p>Physical intimacy feels rare or awkward.</p>
             <p>You don’t want separation — but something feels disconnected.</p>
           </div>
         </div>
       </section>
 
-      {/* WHO IT IS FOR */}
-      <section className="bg-[#f1ebe2] py-20 px-6 text-center">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-semibold">Who This Session Is For</h2>
-
-          <ul className="mt-8 space-y-3 text-lg">
-            <li>✔ Couples who want to stay together</li>
-            <li>✔ Couples tired of misunderstandings</li>
-            <li>✔ Couples feeling emotional or physical distance</li>
-            <li>✔ Partners willing to grow together</li>
-          </ul>
-        </div>
-      </section>
-
       {/* ABOUT */}
-      <section className="py-20 px-6 text-center">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-semibold">About Mahee</h2>
+      <section className="bg-[#f1ebe2] py-24 px-6">
+        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
-          <p className="mt-6 text-lg">
-            I'm a Marriage & Intimacy Coach helping couples rebuild
-            emotional safety, conscious communication, and physical
-            connection.
-          </p>
+          <img
+            src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80"
+            className="rounded-xl shadow-lg"
+          />
 
-          <p className="mt-4 text-lg">
-            With a background in HR and human behavior, I guide couples
-            to understand deeper relationship dynamics and reconnect
-            with clarity and respect.
-          </p>
+          <div>
+            <h2 className="text-4xl font-semibold">
+              Hi, I'm Mahee
+            </h2>
+
+            <p className="mt-6 text-lg leading-relaxed">
+              I’m a Marriage & Intimacy Coach helping couples rebuild
+              emotional safety, conscious communication, and physical connection.
+            </p>
+
+            <p className="mt-4 text-lg leading-relaxed">
+              My approach is calm, practical, and deeply respectful —
+              helping both partners feel heard while creating a path
+              forward together.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* SESSION DETAILS */}
-      <section className="bg-[#f1ebe2] py-20 px-6 text-center">
+      <section className="py-24 px-6 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-semibold">
+          <h2 className="text-4xl font-semibold">
+            What Happens In This Session
+          </h2>
+
+          <ul className="mt-10 space-y-4 text-lg">
+            <li>✔ Identify repeating conflict patterns</li>
+            <li>✔ Understand emotional triggers</li>
+            <li>✔ Learn a safe communication structure</li>
+            <li>✔ Address intimacy blocks respectfully</li>
+            <li>✔ Create a reconnection plan</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* TESTIMONIAL */}
+      <section className="bg-[#f1ebe2] py-24 px-6 text-center">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-4xl font-semibold">
+            What Couples Say
+          </h2>
+
+          <p className="mt-8 text-lg italic">
+            “This session helped us understand each other in a way we hadn't
+            in years. We left with clarity and hope.”
+          </p>
+
+          <p className="mt-4 font-medium">
+            — Anonymous Couple
+          </p>
+        </div>
+      </section>
+
+      {/* PRICING */}
+      <section className="py-28 px-6 text-center">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-4xl font-semibold">
             90-Minute Couples Clarity Session
           </h2>
 
-          <p className="mt-6 text-xl font-semibold">
+          <p className="mt-6 text-2xl font-semibold">
             Investment: ₹1,999
           </p>
 
-          <button className="mt-8 px-10 py-4 bg-[#a88f6c] text-white rounded-full text-lg">
+          <button className="mt-10 px-12 py-5 bg-[#a88f6c] text-white rounded-full text-lg shadow-xl hover:bg-[#94785a] transition">
             Book Your Session
           </button>
         </div>
       </section>
 
       {/* FOOTER */}
-      <footer className="text-center py-10 text-sm">
+      <footer className="text-center py-12 text-sm text-[#6a6054]">
         © {new Date().getFullYear()} Mahee | Marriage & Intimacy Coach
       </footer>
+
     </div>
   );
 }
