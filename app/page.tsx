@@ -3,42 +3,49 @@ export default function Home() {
   
     <main className="bg-[#f8f6f3] text-[#1f2937]">
 
+      export default function Home() {
+  return (
+    <main className="bg-[#f8f6f3] text-[#1f2937]">
+
       {/* HERO */}
-<section className="relative w-full h-[520px] flex items-center justify-center text-center">
+      <section className="relative w-full h-[520px] flex items-center justify-center text-center">
 
-  <img
-    src="/hero-couple.png"
-    alt="Couple reconnecting emotionally"
-    className="absolute inset-0 w-full h-full object-cover"
-  />
+        <img
+          src="/hero-couple.png"
+          alt="Couple reconnecting emotionally"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
 
-  <div className="absolute inset-0 bg-white/80"></div>
+        <div className="absolute inset-0 bg-white/80"></div>
 
-  <div className="relative max-w-3xl px-6">
+        <div className="relative max-w-3xl px-6">
 
-    <h1 className="text-5xl font-semibold leading-tight">
-      Couples Clarity Session
-    </h1>
+          <h1 className="text-5xl font-semibold leading-tight">
+            Couples Clarity Session
+          </h1>
 
-    <p className="mt-4 text-xl">
-      With Mahee | Marriage & Intimacy Coach
-    </p>
+          <p className="mt-4 text-xl">
+            With Mahee | Marriage & Intimacy Coach
+          </p>
 
-    <p className="mt-6 text-lg">
-      Feeling distant, misunderstood, or stuck in the same arguments?
-      You don't need to wait until things get worse.
-    </p>
+          <p className="mt-6 text-lg">
+            Feeling distant, misunderstood, or stuck in the same arguments?
+            You don't need to wait until things get worse.
+          </p>
 
-    <a
-      href="https://calendly.com/mahee_clarity-session"
-      className="mt-8 inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg shadow-lg"
-    >
-      Book Your Couples Clarity Session
-    </a>
+          <a
+            href="https://calendly.com/mahee_clarity-session"
+            className="mt-8 inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg shadow-lg"
+          >
+            Book Your Couples Clarity Session
+          </a>
 
-  </div>
+        </div>
+      </section>
 
-</section>
+    </main>
+  );
+}
       {/* PROBLEMS */}
       <section className="bg-white py-20 px-6">
         <div className="max-w-3xl mx-auto text-lg space-y-4">
