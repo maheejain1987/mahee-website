@@ -1,5 +1,6 @@
+// update trigger
 export default function Home() {
-  return (
+  
     <main className="bg-[#f8f6f3] text-[#1f2937]">
 
       {/* HERO */}
