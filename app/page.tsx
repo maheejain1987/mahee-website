@@ -1,109 +1,100 @@
 export default function Home() {
   return (
-    <main style={{fontFamily:"Arial", background:"#f7f4ef", padding:"40px"}}>
+    <div className="min-h-screen bg-[#f8f5f0] text-[#3e372f]">
 
-      <div style={{maxWidth:"900px", margin:"auto"}}>
+      {/* HERO */}
+      <section
+        className="text-center py-28 px-6 text-white bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1600&q=80')",
+        }}
+      >
+        <div className="max-w-3xl mx-auto bg-black/40 p-10 rounded-xl">
+          <h1 className="text-5xl font-semibold leading-tight">
+            Reconnect. Rebuild. Rediscover Each Other.
+          </h1>
 
-        {/* HERO */}
-        <h1 style={{fontSize:"40px", marginBottom:"10px"}}>
-          Reconnect. Rebuild. Rediscover Each Other.
-        </h1>
+          <p className="mt-6 text-lg">
+            A private clarity session for couples who love each other
+            but feel emotionally distant or stuck in repeating conflicts.
+          </p>
 
-        <p style={{fontSize:"18px", marginBottom:"30px"}}>
-          A private clarity session for couples who love each other,
-          but feel emotionally distant, misunderstood, or stuck in
-          repeating conflicts.
-        </p>
+          <button className="mt-8 px-10 py-4 bg-[#a88f6c] rounded-full text-white text-lg">
+            Apply for Couples Clarity Session
+          </button>
+        </div>
+      </section>
 
-        <a
-          href="https://calendly.com"
-          style={{
-            background:"#2f6f4f",
-            color:"white",
-            padding:"15px 25px",
-            borderRadius:"8px",
-            textDecoration:"none",
-            fontSize:"18px"
-          }}
-        >
-          Apply for Couples Clarity Session
-        </a>
+      {/* PROBLEM SECTION */}
+      <section className="py-20 px-6 text-center">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-semibold">If This Feels Familiar…</h2>
 
-        {/* PAIN SECTION */}
-        <h2 style={{marginTop:"60px"}}>If this feels familiar...</h2>
+          <div className="mt-8 space-y-4 text-lg">
+            <p>You live in the same house but feel emotionally distant.</p>
+            <p>Small conversations turn into arguments.</p>
+            <p>One of you shuts down. The other feels unheard.</p>
+            <p>Physical intimacy feels rare or awkward.</p>
+            <p>You don’t want separation — but something feels disconnected.</p>
+          </div>
+        </div>
+      </section>
 
-        <ul style={{lineHeight:"1.8"}}>
-          <li>You live in the same house but feel emotionally distant</li>
-          <li>Small conversations turn into arguments</li>
-          <li>One of you shuts down, the other feels unheard</li>
-          <li>Physical intimacy feels rare or awkward</li>
-          <li>You don't want separation — but something feels disconnected</li>
-        </ul>
+      {/* WHO IT IS FOR */}
+      <section className="bg-[#f1ebe2] py-20 px-6 text-center">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-semibold">Who This Session Is For</h2>
 
-        {/* WHO IT IS FOR */}
-        <h2 style={{marginTop:"50px"}}>Who This Session Is For</h2>
+          <ul className="mt-8 space-y-3 text-lg">
+            <li>✔ Couples who want to stay together</li>
+            <li>✔ Couples tired of misunderstandings</li>
+            <li>✔ Couples feeling emotional or physical distance</li>
+            <li>✔ Partners willing to grow together</li>
+          </ul>
+        </div>
+      </section>
 
-        <ul style={{lineHeight:"1.8"}}>
-          <li>Couples who want to stay together</li>
-          <li>Couples tired of constant misunderstandings</li>
-          <li>Couples feeling emotional or physical distance</li>
-          <li>Partners willing to reflect and grow</li>
-        </ul>
+      {/* ABOUT */}
+      <section className="py-20 px-6 text-center">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-semibold">About Mahee</h2>
 
-        {/* ABOUT */}
-        <h2 style={{marginTop:"50px"}}>About Mahee</h2>
+          <p className="mt-6 text-lg">
+            I'm a Marriage & Intimacy Coach helping couples rebuild
+            emotional safety, conscious communication, and physical
+            connection.
+          </p>
 
-        <p style={{lineHeight:"1.8"}}>
-          I'm a Marriage & Intimacy Coach helping couples rebuild
-          emotional safety, conscious communication, and physical
-          connection.
-        </p>
+          <p className="mt-4 text-lg">
+            With a background in HR and human behavior, I guide couples
+            to understand deeper relationship dynamics and reconnect
+            with clarity and respect.
+          </p>
+        </div>
+      </section>
 
-        <p style={{lineHeight:"1.8"}}>
-          With a background in HR and human behavior, I guide couples
-          to understand the deeper dynamics behind their conflicts and
-          help them reconnect with clarity and respect.
-        </p>
+      {/* SESSION DETAILS */}
+      <section className="bg-[#f1ebe2] py-20 px-6 text-center">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-semibold">
+            90-Minute Couples Clarity Session
+          </h2>
 
-        {/* SESSION */}
-        <h2 style={{marginTop:"50px"}}>What Happens In This Session</h2>
+          <p className="mt-6 text-xl font-semibold">
+            Investment: ₹1,999
+          </p>
 
-        <ul style={{lineHeight:"1.8"}}>
-          <li>Identify repeating conflict patterns</li>
-          <li>Understand emotional triggers on both sides</li>
-          <li>Learn a safe communication structure</li>
-          <li>Address intimacy blocks respectfully</li>
-          <li>Create a reconnection plan</li>
-        </ul>
+          <button className="mt-8 px-10 py-4 bg-[#a88f6c] text-white rounded-full text-lg">
+            Book Your Session
+          </button>
+        </div>
+      </section>
 
-        {/* PRICE */}
-        <h2 style={{marginTop:"50px"}}>90-Minute Couples Clarity Session</h2>
-
-        <p style={{fontSize:"20px", fontWeight:"bold"}}>
-          Investment: ₹1,999
-        </p>
-
-        <a
-          href="https://calendly.com"
-          style={{
-            background:"#2f6f4f",
-            color:"white",
-            padding:"15px 25px",
-            borderRadius:"8px",
-            textDecoration:"none",
-            fontSize:"18px"
-          }}
-        >
-          Book Your Session
-        </a>
-
-        <p style={{marginTop:"40px"}}>
-          With care,<br/>
-          Mahee<br/>
-          Marriage & Intimacy Coach
-        </p>
-
-      </div>
-    </main>
+      {/* FOOTER */}
+      <footer className="text-center py-10 text-sm">
+        © {new Date().getFullYear()} Mahee | Marriage & Intimacy Coach
+      </footer>
+    </div>
   );
 }
