@@ -4,28 +4,41 @@ export default function Home() {
     <main className="bg-[#f8f6f3] text-[#1f2937]">
 
       {/* HERO */}
-      <section className="max-w-5xl mx-auto py-24 px-6 text-center">
-        <h1 className="text-5xl font-semibold leading-tight">
-          Couples Clarity Session
-        </h1>
+<section className="relative w-full h-[520px] flex items-center justify-center text-center">
 
-        <p className="mt-6 text-xl">
-          With Mahee | Marriage & Intimacy Coach
-        </p>
+  <img
+    src="/hero-couple.png"
+    alt="Couple reconnecting emotionally"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
 
-        <p className="mt-6 text-lg max-w-2xl mx-auto">
-          Feeling distant, misunderstood, or stuck in the same arguments?
-          You don't need to wait until things get worse.
-        </p>
+  <div className="absolute inset-0 bg-white/80"></div>
 
-        <a
-          href="https://calendly.com/mahee_clarity-session"
-          className="mt-10 inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg shadow-lg"
-        >
-          Book Your Couples Clarity Session
-        </a>
-      </section>
+  <div className="relative max-w-3xl px-6">
 
+    <h1 className="text-5xl font-semibold leading-tight">
+      Couples Clarity Session
+    </h1>
+
+    <p className="mt-4 text-xl">
+      With Mahee | Marriage & Intimacy Coach
+    </p>
+
+    <p className="mt-6 text-lg">
+      Feeling distant, misunderstood, or stuck in the same arguments?
+      You don't need to wait until things get worse.
+    </p>
+
+    <a
+      href="https://calendly.com/mahee_clarity-session"
+      className="mt-8 inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg shadow-lg"
+    >
+      Book Your Couples Clarity Session
+    </a>
+
+  </div>
+
+</section>
       {/* PROBLEMS */}
       <section className="bg-white py-20 px-6">
         <div className="max-w-3xl mx-auto text-lg space-y-4">
@@ -42,9 +55,10 @@ export default function Home() {
   <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
     <img
-      src="/mahee.jpg"
-      className="rounded-xl shadow-lg"
-    />
+  src="/mahee.jpg"
+  alt="Mahee - Marriage & Intimacy Coach"
+  className="rounded-2xl shadow-xl w-full max-w-md object-cover"
+/>
 
     <div>
       <h2 className="text-4xl font-semibold">
