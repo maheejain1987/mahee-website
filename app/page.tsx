@@ -32,10 +32,10 @@ export default function Home() {
   {/* RIGHT SIDE - IMAGE */}
   <div className="flex justify-center">
     <img
-      src="/hero-couple.png"
-      alt="Couple reconnecting emotionally"
-      className="rounded-2xl shadow-xl w-full max-w-lg"
-    />
+  src="/couple.png"
+  alt="Couple reconnecting emotionally"
+  className="rounded-2xl shadow-xl w-full max-w-lg"
+/>
   </div>
 
 </section>
