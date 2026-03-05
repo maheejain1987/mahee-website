@@ -3,12 +3,11 @@ export default function Home() {
   return (
     <main className="bg-[#f8f6f3] text-[#1f2937]">
 
-      {/* HERO */}
-<section className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
+     {/* HERO */}
+<section className="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-16 items-center">
 
   {/* LEFT SIDE - TEXT */}
   <div>
-
     <h1 className="text-5xl font-semibold leading-tight">
       Couples Clarity Session
     </h1>
@@ -24,23 +23,19 @@ export default function Home() {
 
     <a
       href="https://calendly.com/mahee_clarity-session"
-      className="mt-8 inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg shadow-lg hover:opacity-90"
+      className="mt-10 inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg shadow-md hover:opacity-90"
     >
       Book Your Couples Clarity Session
     </a>
-
   </div>
-
 
   {/* RIGHT SIDE - IMAGE */}
   <div className="flex justify-center">
-
     <img
       src="/hero-couple.png"
       alt="Couple reconnecting emotionally"
       className="rounded-2xl shadow-xl w-full max-w-lg"
     />
-
   </div>
 
 </section>
