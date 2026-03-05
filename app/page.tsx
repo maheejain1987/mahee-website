@@ -4,17 +4,17 @@ export default function Home() {
     <main className="bg-[#f8f6f3] text-[#1f2937]">
 
      {/* HERO */}
-<section className="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-16 items-center">
+<section className="max-w-6xl mx-auto px-6 pt-20 pb-28 grid md:grid-cols-2 gap-16 items-center">
 
   {/* LEFT SIDE - TEXT */}
   <div>
     <h1 className="text-5xl font-semibold leading-tight">
-      Couples Clarity Session
-    </h1>
+  Rebuild Emotional Connection in Your Relationship
+</h1>
 
-    <p className="mt-4 text-xl text-gray-700">
-      With Mahee | Marriage & Intimacy Coach
-    </p>
+<p className="mt-4 text-xl text-gray-700">
+  90-Minute Couples Clarity Session with Mahee
+</p>
 
     <p className="mt-6 text-lg text-gray-600">
       Feeling distant, misunderstood, or stuck in the same arguments?
@@ -27,6 +27,9 @@ export default function Home() {
     >
       Book Your Couples Clarity Session
     </a>
+    <p className="mt-4 text-sm text-gray-500">
+  Trusted by couples across India • Confidential • Judgment-free
+</p>
   </div>
 
   {/* RIGHT SIDE - IMAGE */}
@@ -41,7 +44,7 @@ export default function Home() {
 </section>
 
       {/* PROBLEMS */}
-      <section className="bg-white py-20 px-6">
+      <section className="bg-white py-28 px-6">
         <div className="max-w-3xl mx-auto text-lg space-y-4">
           <p>You live in the same house but feel emotionally distant.</p>
           <p>Small conversations turn into arguments.</p>
@@ -51,8 +54,40 @@ export default function Home() {
         </div>
       </section>
 
+{/* IS THIS SESSION RIGHT FOR YOU */}
+
+<section className="py-28 px-6 bg-[#f8f6f3]">
+  <div className="max-w-3xl mx-auto">
+
+    <h2 className="text-4xl font-semibold text-center">
+      Is This Session Right For You?
+    </h2>
+
+    <ul className="mt-10 space-y-4 text-lg">
+
+      <li>✓ You feel emotionally distant from your partner</li>
+
+      <li>✓ Conversations quickly turn into arguments</li>
+
+      <li>✓ One partner shuts down while the other feels unheard</li>
+
+      <li>✓ Physical intimacy has become rare or awkward</li>
+
+      <li>✓ You want clarity before things get worse</li>
+
+    </ul>
+
+    <div className="text-center mt-12">
+      <a
+        href="https://calendly.com/mahee_clarity-session"
+        className="inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg"
+      >
+        Book Your Couples Clarity Session
+      </a>
+    </div>
+</section>
       {/* ABOUT */}
-<section className="bg-[#f1ebe2] py-24 px-6">
+<section className="bg-[#f1ebe2] py-28 px-6">
   <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
     <img
@@ -81,7 +116,7 @@ export default function Home() {
 </section>
 
       {/* SESSION DETAILS */}
-      <section className="py-24 px-6 text-center">
+      <section className="py-28 px-6 text-center">
         <div className="max-w-3xl mx-auto">
 
           <h2 className="text-4xl font-semibold">
@@ -100,7 +135,7 @@ export default function Home() {
       </section>
 
       {/* TESTIMONIAL */}
-      <section className="bg-[#f1ebe2] py-24 px-6 text-center">
+      <section className="bg-[#f1ebe2] py-28 px-6 text-center">
         <div className="max-w-3xl mx-auto space-y-10">
 
           <h2 className="text-4xl font-semibold">
@@ -133,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* PRICING */}
-      <section className="py-24 px-6 text-center">
+      <section className="py-28 px-6 text-center">
         <div className="max-w-3xl mx-auto">
 
           <h2 className="text-4xl font-semibold">
