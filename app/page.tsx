@@ -1,6 +1,19 @@
 export default function Home() {
   return (
+
     <main className="bg-[#f8f6f3] text-[#1f2937]">
+
+       {/* LOGO */}
+
+         <div className="max-w-6xl mx-auto px-6 pt-10 flex items-center">
+
+         <img
+         src="/logo.png"
+         alt="Mahee Coaching"
+         className="h-10"
+             />
+
+            </div>
 
       {/* HERO */}
 
@@ -56,17 +69,37 @@ export default function Home() {
 
       {/* PROBLEMS */}
 
-      <section className="bg-white py-28 px-6">
+  <section className="bg-white py-28 px-6">
 
-        <div className="max-w-3xl mx-auto text-lg space-y-4">
+  <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-          <p>You live in the same house but feel emotionally distant.</p>
-          <p>Small conversations turn into arguments.</p>
-          <p>One partner shuts down while the other feels unheard.</p>
-          <p>Physical intimacy feels rare or awkward.</p>
-          <p>You don't want separation — but something feels disconnected.</p>
+    {/* LEFT SIDE - TEXT */}
 
-        </div>
+    <div className="text-lg space-y-4">
+
+      <p>You live in the same house but feel emotionally distant.</p>
+
+      <p>Small conversations turn into arguments.</p>
+
+      <p>One partner shuts down while the other feels unheard.</p>
+
+      <p>Physical intimacy feels rare or awkward.</p>
+
+      <p>You don't want separation — but something feels disconnected.</p>
+
+    </div>
+
+    {/* RIGHT SIDE - IMAGE */}
+
+    <div className="flex justify-center">
+
+      <img
+        src="/problem-couple.png"
+        alt="Couple experiencing relationship tension"
+        className="rounded-2xl shadow-lg w-full max-w-md"
+      />
+
+    </div>
 
       </section>
 
