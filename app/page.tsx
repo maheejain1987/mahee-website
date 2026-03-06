@@ -81,6 +81,8 @@ export default function Home() {
 
       </section>
 
+      <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
+
       {/* PROBLEMS */}
 
   <section className="bg-white py-28 px-6">
@@ -119,6 +121,8 @@ export default function Home() {
 
       </section>
 
+      <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
+
       {/* IS THIS SESSION RIGHT FOR YOU */}
 
       <section className="bg-[#f8f6f3] py-28 px-6">
@@ -154,6 +158,8 @@ export default function Home() {
 
       </section>
 
+      <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
+
       {/* ABOUT */}
 
       <section className="bg-[#f1ebe2] py-28 px-6">
@@ -187,6 +193,8 @@ export default function Home() {
         </div>
 
       </section>
+
+      <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
 
       {/* SESSION DETAILS */}
 
@@ -230,6 +238,8 @@ export default function Home() {
 
       </section>
 
+      <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
+
       {/* FIRST 10 MINUTES */}
 
 <section className="bg-[#f8f6f3] py-28 px-6">
@@ -262,6 +272,8 @@ export default function Home() {
   </div>
 
 </section>
+
+<hr className="max-w-6xl mx-auto border-gray-200 my-16" />
 
       {/* TESTIMONIALS */}
 
@@ -311,6 +323,8 @@ export default function Home() {
 
 </section>
 
+<hr className="max-w-6xl mx-auto border-gray-200 my-16" />
+
       {/* PRICING */}
 
       <section className="bg-white py-28 px-6 text-center">
@@ -338,6 +352,8 @@ export default function Home() {
         </div>
 
       </section>
+
+<hr className="max-w-6xl mx-auto border-gray-200 my-16" />
 
       {/* FOOTER */}
 
