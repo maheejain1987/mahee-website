@@ -362,5 +362,14 @@ export default function Home() {
       </footer>
 
     </main>
+
+    {/* FLOATING CTA BUTTON */}
+
+<a
+  href="https://calendly.com/mahee_clarity-session"
+  className="fixed bottom-6 right-6 bg-[#4f7f67] text-white px-6 py-3 rounded-full shadow-lg text-sm font-medium hover:scale-105 transition"
+>
+  Book Session
+</a>
   );
 }
