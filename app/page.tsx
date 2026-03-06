@@ -184,16 +184,34 @@ export default function Home() {
             What Happens In This Session
           </h2>
 
-          <ul className="mt-10 space-y-4 text-lg text-left">
+          <ul className="mt-10 space-y-6 text-lg text-left">
 
-            <li>✓ Identify repeating conflict patterns</li>
-            <li>✓ Understand emotional triggers</li>
-            <li>✓ Learn a safe communication structure</li>
-            <li>✓ Address intimacy blocks respectfully</li>
-            <li>✓ Create a reconnection plan</li>
+        <li className="flex items-start gap-3">
+        <span className="text-2xl">🧠</span>
+        <span>Identify repeating conflict patterns</span>
+        </li>
 
-          </ul>
+        <li className="flex items-start gap-3">
+<span className="text-2xl">💬</span>
+<span>Understand emotional triggers on both sides</span>
+        </li>
 
+        <li className="flex items-start gap-3">
+        <span className="text-2xl">🤝</span>
+        <span>Learn a safe communication structure</span>
+        </li>
+
+        <li className="flex items-start gap-3">
+        <span className="text-2xl">❤️</span>
+        <span>Address intimacy blocks respectfully</span>
+        </li>
+
+        <li className="flex items-start gap-3">
+        <span className="text-2xl">🛠</span>
+        <span>Create a reconnection plan</span>
+        </li>
+
+        </ul>
         </div>
 
       </section>
