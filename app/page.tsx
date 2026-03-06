@@ -470,9 +470,8 @@ We both walked away feeling hopeful again.”
         © {new Date().getFullYear()} Mahee | Marriage & Intimacy Coach
       </footer>
 
-    </main>
 
-    {/* FLOATING CTA BUTTON */}
+ {/* FLOATING CTA BUTTON */}
 
 <a
   href="https://calendly.com/mahee_clarity-session"
@@ -480,5 +479,9 @@ We both walked away feeling hopeful again.”
 >
   Book Session
 </a>
+
+    </main>
+
+   
   );
 }
