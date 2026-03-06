@@ -101,6 +101,8 @@ export default function Home() {
 
     </div>
 
+    </div>
+
       </section>
 
       {/* IS THIS SESSION RIGHT FOR YOU */}
