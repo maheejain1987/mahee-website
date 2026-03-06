@@ -428,6 +428,42 @@ We both walked away feeling hopeful again.”
 
 <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
 
+     {/* FINAL REASSURANCE */}
+
+<section className="bg-[#f8f6f3] py-24 px-6">
+
+  <div className="max-w-3xl mx-auto text-center">
+
+    <h2 className="text-3xl font-semibold mb-6">
+      Sometimes One Honest Conversation Can Change Everything
+    </h2>
+
+    <p className="text-lg text-gray-600">
+      Many couples wait too long before seeking guidance.  
+      If you both still care about the relationship, a structured conversation
+      can help you understand each other in a completely new way.
+    </p>
+
+    <p className="mt-6 text-lg text-gray-600">
+      This session is not about blame — it’s about clarity, understanding,
+      and finding a way forward together.
+    </p>
+
+    <a
+      href="https://calendly.com/mahee_clarity-session"
+      className="inline-block mt-10 px-8 py-4 bg-[#4f7f67] text-white rounded-full shadow-md hover:shadow-lg transition"
+    >
+      Book Your Couples Clarity Session
+    </a>
+
+    <p className="mt-4 text-sm text-gray-500">
+      Limited sessions available each week
+    </p>
+
+  </div>
+
+</section>
+     
       {/* FOOTER */}
 
       <footer className="text-center py-10 text-sm text-gray-500">
