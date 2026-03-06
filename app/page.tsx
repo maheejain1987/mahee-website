@@ -46,9 +46,24 @@ export default function Home() {
             Limited sessions available each week to ensure personal attention.
             </p>
 
-          <p className="mt-4 text-sm text-gray-500">
-            Trusted by couples across India • Confidential • Judgment-free
-          </p>
+          <div className="mt-6 flex flex-wrap gap-6 text-sm text-gray-600">
+
+          <div className="flex items-center gap-2">
+          <span className="text-lg">⭐</span>
+          <span>Trusted by couples across India</span>
+          </div>
+
+          <div className="flex items-center gap-2">
+          <span className="text-lg">🔒</span>
+          <span>Private & confidential sessions</span>
+          </div>
+
+          <div className="flex items-center gap-2">
+         <span className="text-lg">🤝</span>
+          <span>Safe & judgment-free conversation</span>
+        </div>
+
+        </div>
 
         </div>
 
