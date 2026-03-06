@@ -10,18 +10,18 @@ export default function Home() {
          <img
          src="/logo.png"
          alt="Mahee Coaching"
-         className="h-10"
+         className="h-20"
              />
 
             </div>
 
       {/* HERO */}
 
-      <section className="max-w-6xl mx-auto px-6 pt-20 pb-28 grid md:grid-cols-2 gap-16 items-center">
+      <section className="max-w-6xl mx-auto px-6 pt-24 pb-32 grid md:grid-cols-2 gap-20 items-center">
 
         {/* LEFT SIDE - TEXT */}
 
-        <div>
+        <div className="max-w-xl">
 
           <h1 className="text-5xl font-semibold leading-tight">
             Rebuild Emotional Connection in Your Relationship
@@ -60,7 +60,7 @@ export default function Home() {
           <img
             src="/couple.png"
             alt="Couple reconnecting emotionally"
-            className="rounded-2xl shadow-xl w-full max-w-xl"
+            className="rounded-2xl shadow-2xl w-full max-w-xl"
           />
 
         </div>
