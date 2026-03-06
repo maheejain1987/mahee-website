@@ -71,13 +71,13 @@ export default function Home() {
 
         {/* RIGHT SIDE - IMAGE */}
 
-        <div className="flex justify-center">
+        <div className="flex justify-center relative">
 
-          <img
-            src="/couple.png"
-            alt="Couple reconnecting emotionally"
-            className="rounded-2xl shadow-2xl w-full max-w-xl transform md:translate-y-6"
-          />
+         <img
+        src="/couple.png"
+        alt="Couple reconnecting emotionally"
+        className="relative z-10 rounded-3xl shadow-2xl w-full max-w-lg hover:scale-[1.02] transition duration-500"
+        />
 
         </div>
 
@@ -330,52 +330,72 @@ This session may NOT be right if:
 
       {/* TESTIMONIALS */}
 
-<section className="bg-[#f8f6f3] py-28 px-6">
+<section className="py-28 px-6">
 
-  <div className="max-w-5xl mx-auto">
+<div className="max-w-6xl mx-auto">
 
-    <h2 className="text-4xl font-semibold text-center">
-      What Couples Say
-    </h2>
+<h2 className="text-3xl font-semibold text-center mb-16">
+What Couples Are Saying
+</h2>
 
-    <div className="mt-16 grid md:grid-cols-2 gap-8">
+<div className="grid md:grid-cols-3 gap-8">
 
-      {/* Testimonial 1 */}
+{/* TESTIMONIAL 1 */}
 
-      <div className="bg-white p-8 rounded-2xl shadow-md">
+<div className="bg-white p-8 rounded-xl shadow-sm">
 
-        <p className="text-lg italic">
-          “Mahee helped us understand each other without blaming each other.
-          We left the session feeling connected again.”
-        </p>
+<p className="text-yellow-500 text-lg mb-4">★★★★★</p>
 
-        <p className="mt-4 font-medium text-gray-700">
-          — Couple from Bangalore
-        </p>
+<p className="text-gray-700">
+“This session helped us understand each other in a way we hadn't for years.
+We left with clarity and practical steps to reconnect.”
+</p>
 
-      </div>
+<p className="mt-6 text-sm text-gray-500">
+— Couples Clarity Session Client
+</p>
 
-      {/* Testimonial 2 */}
+</div>
 
-      <div className="bg-white p-8 rounded-2xl shadow-md">
+{/* TESTIMONIAL 2 */}
 
-        <p className="text-lg italic">
-          “This session changed the way we communicate. It was calm,
-          respectful, and incredibly insightful.”
-        </p>
+<div className="bg-white p-8 rounded-xl shadow-sm">
 
-        <p className="mt-4 font-medium text-gray-700">
-          — Anonymous Couple
-        </p>
+<p className="text-yellow-500 text-lg mb-4">★★★★★</p>
 
-      </div>
+<p className="text-gray-700">
+“We were stuck in the same arguments again and again.  
+The session helped us slow down and actually listen to each other.”
+</p>
 
-    </div>
+<p className="mt-6 text-sm text-gray-500">
+— Recent Client
+</p>
 
-  </div>
+</div>
+
+{/* TESTIMONIAL 3 */}
+
+<div className="bg-white p-8 rounded-xl shadow-sm">
+
+<p className="text-yellow-500 text-lg mb-4">★★★★★</p>
+
+<p className="text-gray-700">
+“It felt safe, calm and non-judgmental.  
+We both walked away feeling hopeful again.”
+</p>
+
+<p className="mt-6 text-sm text-gray-500">
+— Couples Coaching Client
+</p>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
-
 <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
 
       {/* PRICING */}
