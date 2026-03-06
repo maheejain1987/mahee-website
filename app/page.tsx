@@ -161,43 +161,51 @@ export default function Home() {
 
       {/* TESTIMONIALS */}
 
-      <section className="bg-[#f8f6f3] py-28 px-6 text-center">
+<section className="bg-[#f8f6f3] py-28 px-6">
 
-        <div className="max-w-3xl mx-auto space-y-10">
+  <div className="max-w-5xl mx-auto">
 
-          <h2 className="text-4xl font-semibold">
-            What Couples Say
-          </h2>
+    <h2 className="text-4xl font-semibold text-center">
+      What Couples Say
+    </h2>
 
-          <div>
+    <div className="mt-16 grid md:grid-cols-2 gap-8">
 
-            <p className="text-lg italic">
-              “Mahee helped us understand each other without blaming each other.
-              We left the session feeling connected again.”
-            </p>
+      {/* Testimonial 1 */}
 
-            <p className="mt-2 font-medium">
-              — Couple from Bangalore
-            </p>
+      <div className="bg-white p-8 rounded-2xl shadow-md">
 
-          </div>
+        <p className="text-lg italic">
+          “Mahee helped us understand each other without blaming each other.
+          We left the session feeling connected again.”
+        </p>
 
-          <div>
+        <p className="mt-4 font-medium text-gray-700">
+          — Couple from Bangalore
+        </p>
 
-            <p className="text-lg italic">
-              “This session changed the way we communicate. It was calm,
-              respectful, and incredibly insightful.”
-            </p>
+      </div>
 
-            <p className="mt-2 font-medium">
-              — Anonymous Couple
-            </p>
+      {/* Testimonial 2 */}
 
-          </div>
+      <div className="bg-white p-8 rounded-2xl shadow-md">
 
-        </div>
+        <p className="text-lg italic">
+          “This session changed the way we communicate. It was calm,
+          respectful, and incredibly insightful.”
+        </p>
 
-      </section>
+        <p className="mt-4 font-medium text-gray-700">
+          — Anonymous Couple
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* PRICING */}
 
