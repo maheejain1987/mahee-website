@@ -5,12 +5,11 @@ export default function Home() {
 
        {/* LOGO */}
 
-         <div className="max-w-6xl mx-auto px-6 pt-10 flex items-center">
-
+         <div className="max-w-6xl mx-auto px-6 pt-8 pb-6 flex items-center">
          <img
          src="/logo.png"
          alt="Mahee Coaching"
-         className="h-20"
+         className="h-30"
              />
 
             </div>
@@ -23,7 +22,7 @@ export default function Home() {
 
         <div className="max-w-xl">
 
-          <h1 className="text-5xl font-semibold leading-tight">
+          <h1 className="text-5xl md:text-6xl font-semibold leading-tight">
             Rebuild Emotional Connection in Your Relationship
           </h1>
 
@@ -60,7 +59,7 @@ export default function Home() {
           <img
             src="/couple.png"
             alt="Couple reconnecting emotionally"
-            className="rounded-2xl shadow-2xl w-full max-w-xl"
+            className="rounded-2xl shadow-2xl w-full max-w-xl transform md:translate-y-6"
           />
 
         </div>
