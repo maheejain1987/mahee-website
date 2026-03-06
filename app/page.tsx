@@ -18,7 +18,7 @@ export default function Home() {
 
       {/* HERO */}
 
-      <section className="max-w-6xl mx-auto px-6 pt-24 pb-32 grid md:grid-cols-2 gap-20 items-center">
+      <section className="max-w-6xl mx-auto px-6 pt-20 pb-28 grid md:grid-cols-[1.1fr_0.9fr] gap-16 items-center">
 
         {/* LEFT SIDE - TEXT */}
 
@@ -32,7 +32,7 @@ export default function Home() {
             90-Minute Couples Clarity Session with Mahee
           </p>
 
-          <p className="mt-6 text-lg text-gray-600">
+          <p className="mt-6 text-lg text-gray-600 max-w-xl">
             Feeling distant, misunderstood, or stuck in the same arguments?
             You don't need to wait until things get worse.
           </p>
