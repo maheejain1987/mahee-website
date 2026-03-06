@@ -159,6 +159,39 @@ export default function Home() {
 
       </section>
 
+      {/* FIRST 10 MINUTES */}
+
+<section className="bg-[#f8f6f3] py-28 px-6">
+
+  <div className="max-w-3xl mx-auto">
+
+    <h2 className="text-4xl font-semibold text-center">
+      What Happens In The First 10 Minutes
+    </h2>
+
+    <div className="mt-12 space-y-6 text-lg">
+
+      <p>
+        <strong>1. You both share what brought you here.</strong><br/>
+        Each partner briefly explains what they are experiencing in the relationship.
+      </p>
+
+      <p>
+        <strong>2. We identify the real issue.</strong><br/>
+        Most couples think the problem is communication, but often there is a deeper pattern underneath.
+      </p>
+
+      <p>
+        <strong>3. I guide the first safe conversation.</strong><br/>
+        Instead of another argument, I help both partners speak and listen in a way that creates understanding.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
       {/* TESTIMONIALS */}
 
 <section className="bg-[#f8f6f3] py-28 px-6">
