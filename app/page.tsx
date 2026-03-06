@@ -30,6 +30,10 @@ export default function Home() {
             Book Your Couples Clarity Session
           </a>
 
+          <p className="mt-3 text-sm text-gray-500">
+            Limited sessions available each week to ensure personal attention.
+            </p>
+
           <p className="mt-4 text-sm text-gray-500">
             Trusted by couples across India • Confidential • Judgment-free
           </p>
@@ -261,6 +265,9 @@ export default function Home() {
             Book Your Session
           </a>
 
+          <p className="mt-3 text-sm text-gray-500">
+             Only a few clarity sessions are offered each week.
+          </p>
         </div>
 
       </section>
