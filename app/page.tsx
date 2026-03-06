@@ -1,3 +1,5 @@
+import { CheckCircle, XCircle } from "lucide-react";
+
 export default function Home() {
   return (
 
@@ -123,40 +125,91 @@ export default function Home() {
 
       <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
 
-      {/* IS THIS SESSION RIGHT FOR YOU */}
+      {/* WHO THIS SESSION IS FOR */}
 
-      <section className="bg-[#f8f6f3] py-28 px-6">
+<section className="bg-[#f8f6f3] py-28 px-6">
 
-        <div className="max-w-3xl mx-auto">
+<div className="max-w-6xl mx-auto">
 
-          <h2 className="text-4xl font-semibold text-center">
-            Is This Session Right For You?
-          </h2>
+<h2 className="text-3xl font-semibold text-center mb-16">
+Is This Session Right For You?
+</h2>
 
-          <ul className="mt-10 space-y-4 text-lg">
+<div className="grid md:grid-cols-2 gap-12">
 
-            <li>✓ You feel emotionally distant from your partner</li>
-            <li>✓ Conversations quickly turn into arguments</li>
-            <li>✓ One partner shuts down while the other feels unheard</li>
-            <li>✓ Physical intimacy has become rare or awkward</li>
-            <li>✓ You want clarity before things get worse</li>
+<div className="bg-white p-8 rounded-xl shadow-sm">
 
-          </ul>
+<h3 className="text-xl font-semibold mb-6 text-green-700">
+This session is a great fit if:
+</h3>
 
-          <div className="text-center mt-12">
+<ul className="space-y-4 text-gray-700">
 
-            <a
-              href="https://calendly.com/mahee_clarity-session"
-              className="inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg"
-            >
-              Book Your Couples Clarity Session
-            </a>
+<li className="flex items-start gap-3">
+<CheckCircle className="text-green-600 mt-1" size={20}/>
+<span>You feel emotionally distant from your partner</span>
+</li>
 
-          </div>
+<li className="flex items-start gap-3">
+<CheckCircle className="text-green-600 mt-1" size={20}/>
+<span>Conversations often turn into arguments</span>
+</li>
 
-        </div>
+<li className="flex items-start gap-3">
+<CheckCircle className="text-green-600 mt-1" size={20}/>
+<span>You want to rebuild trust and intimacy</span>
+</li>
 
-      </section>
+<li className="flex items-start gap-3">
+<CheckCircle className="text-green-600 mt-1" size={20}/>
+<span>Both partners are willing to understand each other</span>
+</li>
+
+<li className="flex items-start gap-3">
+<CheckCircle className="text-green-600 mt-1" size={20}/>
+<span>You want clarity before problems escalate</span>
+</li>
+
+</ul>
+</div>
+
+<div className="bg-white p-8 rounded-xl shadow-sm">
+
+<h3 className="text-xl font-semibold mb-6 text-red-600">
+This session may NOT be right if:
+</h3>
+
+
+
+</div>
+
+</div>
+
+</div><ul className="space-y-4 text-gray-700">
+
+<li className="flex items-start gap-3">
+<XCircle className="text-red-600 mt-1" size={20}/>
+<span>One partner refuses to participate</span>
+</li>
+
+<li className="flex items-start gap-3">
+<XCircle className="text-red-600 mt-1" size={20}/>
+<span>You are looking for someone to take sides</span>
+</li>
+
+<li className="flex items-start gap-3">
+<XCircle className="text-red-600 mt-1" size={20}/>
+<span>There are safety or abuse concerns</span>
+</li>
+
+<li className="flex items-start gap-3">
+<XCircle className="text-red-600 mt-1" size={20}/>
+<span>You expect instant solutions</span>
+</li>
+
+</ul>
+
+</section>
 
       <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
 
@@ -343,7 +396,7 @@ export default function Home() {
             href="https://calendly.com/mahee_clarity-session"
             className="mt-10 inline-block px-10 py-4 bg-[#4f7f67] text-white rounded-full text-lg"
           >
-            Book Your Session
+            Book Session
           </a>
 
           <p className="mt-3 text-sm text-gray-500">
