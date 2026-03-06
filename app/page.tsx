@@ -185,7 +185,13 @@ This session may NOT be right if:
 
 </div>
 
-</div><ul className="space-y-4 text-gray-700">
+<div className="bg-white p-8 rounded-xl shadow-md">
+
+<h3 className="text-xl font-semibold mb-6 text-red-600">
+This session may NOT be right if:
+</h3>
+
+<ul className="space-y-4 text-gray-700">
 
 <li className="flex items-start gap-3">
 <XCircle className="text-red-600 mt-1" size={20}/>
@@ -208,6 +214,8 @@ This session may NOT be right if:
 </li>
 
 </ul>
+
+</div>
 
 </section>
 
