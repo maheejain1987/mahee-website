@@ -5,27 +5,22 @@ export default function Home() {
 
     <main className="bg-gradient-to-b from-[#f8f6f3] via-[#f6f3ee] to-[#ffffff] text-[#1f2937]">
 
-       {/* LOGO */}
+    {/* HERO */}
 
-         <div className="max-w-6xl mx-auto px-6 pt-6 pb-6 flex items-center">
-         <img
-         src="/logo.png"
-         alt="Mahee Coaching"
-         className="h-40 w-auto"/>
-             
-
-            </div>
-
-      {/* HERO */}
-
-      <section className="max-w-6xl mx-auto px-6 pt-12 pb-24 grid md:grid-cols-2 gap-16 items-center">
+      <section className="max-w-6xl mx-auto px-6 pt-8 pb-20 grid md:grid-cols-2 gap-16 items-center">
 
         {/* LEFT SIDE - TEXT */}
 
-        <div className="max-w-xl">
+       <div className="max-w-2xl space-y-6">
 
+        <img
+        src="/logo.png"
+        alt="Mahee Coaching"
+        className="h-40 w-auto mb-4"
+        />
           <h1 className="text-5xl md:text-6xl font-semibold leading-tight">
-            Rebuild Emotional Connection in Your Relationship
+            Rebuild Emotional Connection <br/>
+            in Your Relationship
           </h1>
 
           <p className="mt-4 text-xl text-gray-700">
@@ -73,6 +68,7 @@ export default function Home() {
 
         <div className="flex justify-center relative">
         <div className="absolute -z-10 w-72 h-72 bg-[#e7e1d8] rounded-full blur-3xl opacity-60"></div>
+         
          <img
         src="/couple.png"
         alt="Couple reconnecting emotionally"
@@ -131,7 +127,7 @@ export default function Home() {
 
 <div className="max-w-6xl mx-auto">
 
-<h2 className="text-3xl font-semibold text-center mb-16">
+<h2 className="text-3xl font-semibold text-center mb-12">
 Is This Session Right For You?
 </h2>
 
@@ -171,14 +167,6 @@ This session is a great fit if:
 </li>
 
 </ul>
-</div>
-
-<div className="bg-white p-8 rounded-xl shadow-sm">
-
-<h3 className="text-xl font-semibold mb-6 text-red-600">
-This session may NOT be right if:
-</h3>
-
 </div>
 
 </div>
