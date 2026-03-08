@@ -3,7 +3,7 @@ import { CheckCircle, XCircle } from "lucide-react";
 export default function Home() {
   return (
 
-    <main className="bg-[#f8f6f3] text-[#1f2937]">
+    <main className="bg-gradient-to-b from-[#f8f6f3] via-[#f6f3ee] to-[#ffffff] text-[#1f2937]">
 
        {/* LOGO */}
 
@@ -135,7 +135,7 @@ export default function Home() {
 Is This Session Right For You?
 </h2>
 
-<div className="grid md:grid-cols-2 gap-12">
+<div className="grid md:grid-cols-2 gap-10">
 
 <div className="bg-white p-8 rounded-xl shadow-sm">
 
@@ -178,8 +178,6 @@ This session is a great fit if:
 <h3 className="text-xl font-semibold mb-6 text-red-600">
 This session may NOT be right if:
 </h3>
-
-
 
 </div>
 
