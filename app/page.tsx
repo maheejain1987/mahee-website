@@ -216,6 +216,7 @@ This session may NOT be right if:
 </ul>
 
 </div>
+</div>
 
 </section>
 
