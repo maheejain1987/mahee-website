@@ -123,89 +123,87 @@ export default function Home() {
 
       {/* WHO THIS SESSION IS FOR */}
 
-<section className="bg-[#f8f6f3] py-28 px-6">
+<section className="bg-[#f8f6f3] py-24 px-6">
+  <div className="max-w-6xl mx-auto">
 
-<div className="max-w-6xl mx-auto">
+    <h2 className="text-3xl font-semibold text-center mb-12">
+      Is This Session Right For You?
+    </h2>
 
-<h2 className="text-3xl font-semibold text-center mb-12">
-Is This Session Right For You?
-</h2>
+    <div className="grid md:grid-cols-2 gap-10 items-start">
 
-<div className="grid md:grid-cols-2 gap-10 items-start">
+      {/* GREAT FIT */}
+      <div className="bg-white p-8 rounded-xl shadow-md">
+        <h3 className="text-xl font-semibold mb-6 text-green-700">
+          This session is a great fit if:
+        </h3>
 
-<div className="bg-white p-8 rounded-xl shadow-sm">
+        <ul className="space-y-4 text-gray-700">
 
-<h3 className="text-xl font-semibold mb-6 text-green-700">
-This session is a great fit if:
-</h3>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-green-600 mt-1" size={20}/>
+            <span>You feel emotionally distant from your partner</span>
+          </li>
 
-<ul className="space-y-4 text-gray-700">
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-green-600 mt-1" size={20}/>
+            <span>Conversations often turn into arguments</span>
+          </li>
 
-<li className="flex items-start gap-3">
-<CheckCircle className="text-green-600 mt-1" size={20}/>
-<span>You feel emotionally distant from your partner</span>
-</li>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-green-600 mt-1" size={20}/>
+            <span>You want to rebuild trust and intimacy</span>
+          </li>
 
-<li className="flex items-start gap-3">
-<CheckCircle className="text-green-600 mt-1" size={20}/>
-<span>Conversations often turn into arguments</span>
-</li>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-green-600 mt-1" size={20}/>
+            <span>Both partners are willing to understand each other</span>
+          </li>
 
-<li className="flex items-start gap-3">
-<CheckCircle className="text-green-600 mt-1" size={20}/>
-<span>You want to rebuild trust and intimacy</span>
-</li>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-green-600 mt-1" size={20}/>
+            <span>You want clarity before problems escalate</span>
+          </li>
 
-<li className="flex items-start gap-3">
-<CheckCircle className="text-green-600 mt-1" size={20}/>
-<span>Both partners are willing to understand each other</span>
-</li>
+        </ul>
+      </div>
 
-<li className="flex items-start gap-3">
-<CheckCircle className="text-green-600 mt-1" size={20}/>
-<span>You want clarity before problems escalate</span>
-</li>
 
-</ul>
-</div>
+      {/* NOT RIGHT FIT */}
+      <div className="bg-white p-8 rounded-xl shadow-md">
+        <h3 className="text-xl font-semibold mb-6 text-red-600">
+          This session may NOT be right if:
+        </h3>
 
-</div>
+        <ul className="space-y-4 text-gray-700">
 
-<div className="bg-white p-8 rounded-xl shadow-md">
+          <li className="flex items-start gap-3">
+            <XCircle className="text-red-600 mt-1" size={20}/>
+            <span>One partner refuses to participate</span>
+          </li>
 
-<h3 className="text-xl font-semibold mb-6 text-red-600">
-This session may NOT be right if:
-</h3>
+          <li className="flex items-start gap-3">
+            <XCircle className="text-red-600 mt-1" size={20}/>
+            <span>You are looking for someone to take sides</span>
+          </li>
 
-<ul className="space-y-4 text-gray-700">
+          <li className="flex items-start gap-3">
+            <XCircle className="text-red-600 mt-1" size={20}/>
+            <span>There are safety or abuse concerns</span>
+          </li>
 
-<li className="flex items-start gap-3">
-<XCircle className="text-red-600 mt-1" size={20}/>
-<span>One partner refuses to participate</span>
-</li>
+          <li className="flex items-start gap-3">
+            <XCircle className="text-red-600 mt-1" size={20}/>
+            <span>You expect instant solutions</span>
+          </li>
 
-<li className="flex items-start gap-3">
-<XCircle className="text-red-600 mt-1" size={20}/>
-<span>You are looking for someone to take sides</span>
-</li>
+        </ul>
+      </div>
 
-<li className="flex items-start gap-3">
-<XCircle className="text-red-600 mt-1" size={20}/>
-<span>There are safety or abuse concerns</span>
-</li>
+    </div>
 
-<li className="flex items-start gap-3">
-<XCircle className="text-red-600 mt-1" size={20}/>
-<span>You expect instant solutions</span>
-</li>
-
-</ul>
-
-</div>
-</div>
-
+  </div>
 </section>
-
       <hr className="max-w-6xl mx-auto border-gray-200 my-16" />
 
       {/* ABOUT */}
